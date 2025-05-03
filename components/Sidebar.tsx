@@ -13,9 +13,9 @@ import {
   FaEnvelope,
   FaGithub,
   FaLinkedin,
-  FaTwitter,
   FaBars,
   FaTimes,
+  FaFacebook,
 } from "react-icons/fa";
 
 const navLinks = [
@@ -28,9 +28,9 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { href: "https://github.com/yourusername", icon: <FaGithub size={20} /> },
-  { href: "https://linkedin.com/in/yourusername", icon: <FaLinkedin size={20} /> },
-  { href: "https://twitter.com/yourusername", icon: <FaTwitter size={20} /> },
+  { href: "https://github.com/TahmidTausif", icon: <FaGithub size={20} /> },
+  { href: "https://www.linkedin.com/in/tahmidul-islam3", icon: <FaLinkedin size={20} /> },
+  { href: "https://www.facebook.com/tahmid.tausif.3", icon: <FaFacebook size={20} /> },
 ];
 
 export default function Sidebar() {

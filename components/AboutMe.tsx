@@ -10,7 +10,7 @@ export default function AboutMe() {
     const [isModalOpen, setIsModalOpen] = useState(false);
     return (
         <AnimatedWrapper>
-            <section className="pt-20 px-6 mx-auto">
+            <section className=" items-center justify-items-center pt-20 px-6 md:px-24 mx-auto">
                 {/* About Me Section */}
                 <div className=" flex flex-col  gap-8   text-center mb-16">
                     <h2 className="text-4xl font-light text-left  text-gray-100 mb-6 md:mb-0 ">About Me</h2>

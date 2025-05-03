@@ -27,7 +27,7 @@ const educationData = [
 export default function EducationSection() {
     return (
         <AnimatedWrapper>
-            <section className="text-gray-100 my-16 ml-8">
+            <section className="text-gray-100 md:px-24 my-16 ">
                 <h2 className="text-4xl font-light mb-10 text-left">Education</h2>
 
                 <div className="relative border-l-4 border-gray-700 pl-6 ml-4">
