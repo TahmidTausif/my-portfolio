@@ -59,5 +59,5 @@ Then open http://localhost:3000 in your browser.
 
 ## 📬 Contact
 
-# 📧 Email: tahmidtausif66@gmail.com
-# 💼 LinkedIn: Tahmidul Islam
+### 📧 Email: tahmidtausif66@gmail.com
+### 💼 LinkedIn: Tahmidul Islam
