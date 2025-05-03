@@ -34,14 +34,14 @@ const AllProjects = () => {
 
   return (
     <AnimatedWrapper>
-      <div className="px-6 py-10 md:py-16 ">
+      <div className="px-6 py-16 ">
       <h2 className="text-4xl font-light mb-8 text-left">My Projects</h2>
         <div className="mb-6 space-x-4">
           {['All', 'React', 'Next.js'].map((btn) => (
             <button
               key={btn}
               onClick={() => setFilter(btn)}
-              className={`px-4 py-2 rounded-full border-2 border-white ${filter === btn ? 'bg-black text-white' : 'bg-gray-600 text-white'
+              className={`px-4 py-2 rounded-full border-2 border-white ${filter === btn ? 'bg-gray-600 text-white' : 'bg-transparent text-white'
                 }`}
             >
               {btn}

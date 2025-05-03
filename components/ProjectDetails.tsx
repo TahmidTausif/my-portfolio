@@ -5,9 +5,11 @@ import { useParams } from 'next/navigation';
 import AnimatedWrapper from '@/components/AnimatedWrapper';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import {  FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 import { notFound } from 'next/navigation';
 import { useEffect, useState } from 'react';
+import { FaArrowLeftLong } from 'react-icons/fa6';
+import { ClipLoader } from 'react-spinners';
 
 type Project = {
   id: string;
@@ -43,7 +45,7 @@ export default function ProjectDetails({ projectId }: { projectId: string }) {
       try {
         const projects = await getProjects();
         const foundProject = projects.find((p) => p.id === id || p.id === projectId);
-        
+
         if (foundProject) {
           setProject(foundProject);
         } else {
@@ -60,18 +62,21 @@ export default function ProjectDetails({ projectId }: { projectId: string }) {
     }
   }, [id, projectId]);
 
-  if (!project) return <div>Loading...</div>;
+  if (!project) return <div className=' min-h-screen w-full items-center justify-center'><ClipLoader color="#3498db" size={50} /></div>;
 
   return (
     <AnimatedWrapper>
-      <div className="px-6 py-10 w-full mx-auto flex flex-col gap-6">
+      <div className="relative px-6 py-10 w-full mx-auto flex flex-col gap-6">
+        <Link href="/projects" className="absolute top-4 left-4  text-white text-2xl hover:text-gray-400">
+          <FaArrowLeftLong />
+        </Link>
         <Image
           src={project.image}
           alt={project.title}
           width={800}
           height={800}
           priority
-          className="w-full h-96 object-cover rounded"
+          className="w-full h-96 object-cover rounded mt-10"
         />
 
         <h1 className="text-3xl font-bold">{project.title}</h1>

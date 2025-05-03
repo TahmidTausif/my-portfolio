@@ -14,9 +14,9 @@ export default function AboutMe() {
                 {/* About Me Section */}
                 <div className=" flex flex-col  gap-8   text-center mb-16">
                     <h2 className="text-4xl font-light text-left  text-gray-100 mb-6 md:mb-0 ">About Me</h2>
-                    <div className="w-full md:w-1/2">
+                    <div className="w-full ">
                         <p className="text-lg text-left text-gray-300 mb-8">
-                            Hi, I&apos;m Tahmid! A passionate web developer focused on creating clean, user-friendly interfaces and bringing ideas to life through React, Next.js, and TypeScript. I&apos;m always learning and exploring new technologies to enhance my development skills.
+                        Hi, I&apos;m Tahmid! A passionate web developer with a strong focus on creating clean, responsive, and user-friendly interfaces. I specialize in building dynamic web applications using React, Next.js, and TypeScript.<br/> <br/> In addition to these frontend technologies, I am well-versed in the MERN stack (MongoDB, Express, React, Node.js) for full-stack development, enabling me to build end-to-end solutions from the database to the UI. I&apos;m constantly exploring new technologies and tools to stay at the forefront of development, and I&apos;m always excited about the opportunity to solve complex problems and bring ideas to life through code.
                         </p>
 
                         {/* CV Preview and Download Button */}
