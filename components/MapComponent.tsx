@@ -37,7 +37,7 @@ const MapComponent = ({ position }: MapComponentProps) => {
   }, []);
 
   return (
-    <div className="relative h-96 w-full rounded-lg overflow-hidden">
+    <div className="relative h-96 w-full rounded-lg overflow-hidden z-10">
       {isLoading ? (
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <ClipLoader color="#3498db" size={50} />
