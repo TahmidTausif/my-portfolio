@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import 'leaflet/dist/leaflet.css';
 import Sidebar from "@/components/Sidebar";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,7 +32,10 @@ export default function RootLayout({
       >
         <div className="flex">
           <Sidebar />
-          <main className="ml-10 flex-1 overflow-y-auto h-screen p-6">{children}</main>
+          <main className="ml-10 flex-1 overflow-y-auto h-screen p-6">{children}
+            <Footer/>
+          </main>
+
         </div>
       </body>
     </html>

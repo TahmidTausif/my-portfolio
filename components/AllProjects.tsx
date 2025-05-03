@@ -34,7 +34,8 @@ const AllProjects = () => {
 
   return (
     <AnimatedWrapper>
-      <div className="px-6 py-8">
+      <div className="px-6 py-10 md:py-16 ">
+      <h2 className="text-4xl font-light mb-8 text-left">My Projects</h2>
         <div className="mb-6 space-x-4">
           {['All', 'React', 'Next.js'].map((btn) => (
             <button

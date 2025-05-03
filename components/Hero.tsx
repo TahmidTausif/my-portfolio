@@ -8,7 +8,7 @@ export default function Hero() {
     <AnimatedWrapper>
       <section className="flex flex-col md:flex-row items-center justify-between max-h-screen mx-auto my-auto gap-6 p-6 md:p-12">
         {/* Left side: Text */}
-        <div className="flex-1 text-center md:text-left">
+        <div className="flex-1 text-left md:text-left">
           <h1 className="text-3xl md:text-5xl font-light text-gray-100 mb-4">
             Hi, I&apos;m <span className="text-gray-300">Tahmidul Islam</span>
           </h1>

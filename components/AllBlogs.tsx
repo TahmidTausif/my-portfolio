@@ -32,7 +32,7 @@ export default function AllBlogs() {
         <AnimatedWrapper>
             <section className="py-16 px-6 bg-[#0a0a0a] text-white">
                 <div className="max-w-6xl mx-auto">
-                    <h2 className="text-4xl font-bold mb-8 text-center">All Blogs</h2>
+                    <h2 className="text-4xl font-light mb-8 text-left">My Blogs</h2>
                     <div className="grid gap-8 md:grid-cols-2">
                         {blogs.map((blog) => (
                             <div key={blog.id} className="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition">
