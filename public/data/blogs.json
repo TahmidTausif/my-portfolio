@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "title": "Mastering React in 2025",
+      "slug": "mastering-react-2025",
+      "summary": "Learn the latest techniques and best practices in React including Hooks, Server Components, and performance optimization.",
+      "date": "2025-04-20",
+      "author": "Tahmid",
+      "image": "/images/react.jpg",
+      "tags": ["React", "Frontend", "JavaScript"]
+    },
+    {
+      "id": 2,
+      "title": "A Guide to MongoDB Aggregations",
+      "slug": "mongodb-aggregations-guide",
+      "summary": "This blog walks through MongoDB's aggregation pipeline and practical use cases for data transformation and analysis.",
+      "date": "2025-03-10",
+      "author": "Tahmid",
+      "image": "/images/mongodb.jpg",
+      "tags": ["MongoDB", "Database", "Backend"]
+    },
+    {
+      "id": 3,
+      "title": "Understanding Next.js App Router",
+      "slug": "nextjs-app-router-explained",
+      "summary": "A deep dive into the new App Router feature in Next.js 14 — layouts, loading UI, server actions and more.",
+      "date": "2025-02-15",
+      "author": "Tahmid",
+      "image": "/images/next.jpg",
+      "tags": ["Next.js", "SSR", "React"]
+    },
+    {
+      "id": 4,
+      "title": "Why You Should Learn TypeScript",
+      "slug": "why-typescript-2025",
+      "summary": "Explore how TypeScript enhances your JavaScript development and reduces bugs in large applications.",
+      "date": "2025-01-25",
+      "author": "Tahmid",
+      "image": "/images/typescript.jpg",
+      "tags": ["TypeScript", "JavaScript", "Development"]
+    }
+  ]
+  

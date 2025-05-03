@@ -1,0 +1,60 @@
+[
+  {
+    "id": "rental-house",
+    "title": "Rental House Website",
+    "description": "A full-stack rental housing platform with user roles for tenants, landlords, and admins. Features include listing management, booking workflows, and integrated payments.",
+    "image": "/images/mock_project_1.png",
+    "tech": ["Next.js", "Node.js", "MongoDB", "Express", "Tailwind CSS", "Cloudinary", "JWT"],
+    "live": "https://rental-house-client.vercel.app",
+    "frontend": "https://github.com/TahmidTausif/rental-house-client",
+    "backend": "https://github.com/TahmidTausif/rental-house-server",
+    "features": [
+      "Role-based dashboards for Admin, Landlord, and Tenant",
+      "JWT authentication and route protection",
+      "Landlords can create, update, and delete rental listings",
+      "Tenants can send booking requests and pay rent",
+      "Admins manage users and listings records",
+      "Integrated Sslcommerz payment gateway",
+      "Cloudinary for image uploads (listing photos, floor plans)",
+      "Responsive UI built with Tailwind CSS and custom layouts"
+    ]
+  },
+  {
+    "id": "bike-shop",
+    "title": "Bike Museum Website",
+    "description": "An e-commerce bike shop platform with filtering, product management, and secure checkout. Built using the MERN stack and integrated with SurjoPay.",
+    "image": "/images/mock_project_2.png",
+    "tech": ["React", "Node.js", "MongoDB", "Express", "Redux Toolkit", "RTK Query", "Tailwind CSS", "JWT"],
+    "live": "https://bike-museum-five.vercel.app",
+    "frontend": "https://github.com/TahmidTausif/Bike-Museum-Client",
+    "backend": "https://github.com/TahmidTausif/Bike-Museum-Server",
+    "features": [
+      "Product listing with filtering and pagination",
+      "Admin dashboard for product management",
+      "Secure checkout with quantity validation",
+      "Order history for both users and admins",
+      "JWT-based authentication with private/public routes",
+      "Payment integration via Sslcommerz",
+      "Custom RTK Query setup for data fetching",
+      "Fully responsive interface with Tailwind CSS"
+    ]
+  },
+  {
+    "id": "restaurant-website",
+    "title": "Saudi Cuisine Website",
+    "description": "A responsive restaurant website with digital menu, reservation form, and animations for a premium dining experience.",
+    "image": "/images/mock_project_3.png",
+    "tech": ["React", "AOS", "Tailwind CSS", "DaisyUi", "Swiper Slider"],
+    "live": "https://saudi-cuisine-420.netlify.app",
+    "frontend": "https://github.com/TahmidTausif/saudi-cuisine",
+    "backend": "",
+    "features": [
+      "Interactive homepage with animation transitions (Framer Motion)",
+      "Book a table for up to 5 people directly from the site.",
+      "View featured dishes and client testimonials with interactive sliders.",
+      "Smooth scroll navigation and responsive layout",
+      "Modern UI design using Tailwind CSS and DaisyUI",
+      "Simple static frontend (no backend)"
+    ]
+  }
+]
