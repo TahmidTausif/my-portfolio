@@ -59,5 +59,7 @@ Then open http://localhost:3000 in your browser.
 
 ## 📬 Contact
 
-### 📧 Email: tahmidtausif66@gmail.com
-### 💼 LinkedIn: Tahmidul Islam
+If you'd like to connect, collaborate, or just say hi:
+
+- Email: [tahmidtausif66@gmail.com](mailto:tahmidtausif66@gmail.com)
+- LinkedIn: [Tahmidul Islam](https://linkedin.com/in/tahmidul-islam3)
