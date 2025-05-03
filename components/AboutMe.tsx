@@ -46,7 +46,7 @@ export default function AboutMe() {
 
                             <div className="w-full h-[500px] overflow-hidden mb-4 rounded">
                                 <iframe
-                                    src="/tahmid_cv.pdf"
+                                    src="/tahmid_CV.pdf"
                                     className="w-full h-full rounded"
                                     title="CV Preview"
                                 />
@@ -54,8 +54,8 @@ export default function AboutMe() {
 
                             <div className="text-right">
                                 <Link
-                                    href="/tahmid_cv.pdf"
-                                    download="Tahmid_CV.pdf"
+                                    href="/tahmid_CV.pdf"
+                                    download="tahmid_CV.pdf"
                                     className="bg-transparent border-2 border-gray-700 hover:bg-gray-700 text-white px-6 py-2 rounded-md font-medium transition"
                                 >
                                     Download CV
