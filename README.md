@@ -24,17 +24,8 @@ Welcome to my personal developer portfolio! This project is designed to showcase
 - 🌙 Dark UI with accessible design
 - 🔍 SEO optimized using Next.js
 
-## 📁 Folder Structure
 
-my-portfolio/
-├── components/ # Reusable UI components
-├── pages/ # Next.js page routing (Home, Projects, Contact)
-├── public/ # Static assets (images, icons)
-├── styles/ # Global styles and Tailwind configuration
-├── utils/ # Utility/helper functions
-├── animations/ # Framer motion animation configs
-├── .env.local # Environment variables (EmailJS keys, etc.)
-└── ...
+
 
 
 ## 📦 Getting Started
