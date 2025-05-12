@@ -17,6 +17,16 @@
       "Integrated Sslcommerz payment gateway",
       "Cloudinary for image uploads (listing photos, floor plans)",
       "Responsive UI built with Tailwind CSS and custom layouts"
+    ],
+    "challenges": [
+      "Managing complex role-based routing logic securely",
+      "Ensuring accurate rent payment validation and booking state transitions",
+      "Uploading, updating and managing multiple Cloudinary images per listing"
+    ],
+    "improvements": [
+      "Add real-time chat between landlords and tenants",
+      "Implement booking calendar view for landlords",
+      "Improve SEO with server-side rendering (SSR) optimizations"
     ]
   },
   {
@@ -25,7 +35,7 @@
     "description": "An e-commerce bike shop platform with filtering, product management, and secure checkout. Built using the MERN stack and integrated with SurjoPay.",
     "image": "/images/mock_project_2.png",
     "tech": ["React", "Node.js", "MongoDB", "Express", "Redux Toolkit", "RTK Query", "Tailwind CSS", "JWT"],
-    "live": "https://bike-museum-five.vercel.app",
+    "live": "https://bike-museum-liart.vercel.app",
     "frontend": "https://github.com/TahmidTausif/Bike-Museum-Client",
     "backend": "https://github.com/TahmidTausif/Bike-Museum-Server",
     "features": [
@@ -37,6 +47,16 @@
       "Payment integration via Sslcommerz",
       "Custom RTK Query setup for data fetching",
       "Fully responsive interface with Tailwind CSS"
+    ],
+    "challenges": [
+      "Handling edge cases in product quantity validation during checkout",
+      "Managing token refresh and state with RTK Query and JWT",
+      "Ensuring responsive design across multiple screen sizes"
+    ],
+    "improvements": [
+      "Add customer reviews and rating system",
+      "Enable admin to view real-time sales analytics",
+      "Switch to Stripe for better international payment support"
     ]
   },
   {
@@ -55,6 +75,15 @@
       "Smooth scroll navigation and responsive layout",
       "Modern UI design using Tailwind CSS and DaisyUI",
       "Simple static frontend (no backend)"
+    ],
+    "challenges": [
+      "Balancing animation performance with responsiveness",
+      "Designing a modern UI without backend functionality",
+      "Handling form input validation with minimal JS"
+    ],
+    "improvements": [
+      "Integrate Firebase to store reservations",
+      "Add admin panel to manage menu and bookings"
     ]
   }
 ]

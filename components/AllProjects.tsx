@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import AnimatedWrapper from './AnimatedWrapper';
+import { HiArrowLongRight } from 'react-icons/hi2';
 
 type Project = {
   id: string;
@@ -41,7 +42,7 @@ const AllProjects = () => {
             <button
               key={btn}
               onClick={() => setFilter(btn)}
-              className={`px-4 py-2 rounded-full border-2 border-white ${filter === btn ? 'bg-gray-600 text-white' : 'bg-transparent text-white'
+              className={`px-4 py-2 rounded-full border-2 border-gray-700 ${filter === btn ? 'bg-gray-700 text-white' : 'bg-transparent text-white'
                 }`}
             >
               {btn}
@@ -72,9 +73,17 @@ const AllProjects = () => {
                       </span>
                     ))}
                   </div>
+                  <div className="mt-auto pt-4">
+                    <div
+                      className="inline-flex items-center gap-1 text-gray-300  font-semibold hover:scale-105 transition-all duration-300"
+                    >
+                      Project Details <HiArrowLongRight className="mt-[1px] text-2xl" />
+                    </div>
+                  </div>
                 </div>
               </div>
             </Link>
+            
           ))}
         </div>
       </div>

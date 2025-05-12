@@ -1,0 +1,323 @@
+[{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b323d"
+  },
+  "name": "Trek Marlin 7",
+  "brand": "Trek",
+  "price": 500,
+  "category": "Mountain",
+  "photo": "https://images.pexels.com/photos/28428132/pexels-photo-28428132/free-photo-of-minimalist-urban-bicycle-leaning-against-glass-wall.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+  "description": "A minimalist urban mountain bike for adventure lovers.",
+  "quantity": 54,
+  "inStock": true,
+  "isDeleted": true,
+  "updatedAt": {
+    "$date": "2025-04-16T18:25:56.348Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b3244"
+  },
+  "name": "Yamaha YDX-Moro 07",
+  "brand": "Yamaha",
+  "price": 800,
+  "category": "Hybrid",
+  "photo": "https://images.pexels.com/photos/11537018/pexels-photo-11537018.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "description": "Yamaha hybrid bike, perfect for city roads and trails.",
+  "quantity": 3,
+  "inStock": true,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2025-04-15T13:41:48.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b3248"
+  },
+  "name": "Trek Marlin 7",
+  "brand": "Trek",
+  "price": 500,
+  "category": "Mountain",
+  "photo": "https://images.pexels.com/photos/28428132/pexels-photo-28428132/free-photo-of-minimalist-urban-bicycle-leaning-against-glass-wall.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+  "description": "A minimalist urban mountain bike for adventure lovers.",
+  "quantity": 9,
+  "inStock": true,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2025-04-15T13:41:50.635Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b324a"
+  },
+  "name": "Cannondale Trail 8",
+  "brand": "Cannondale",
+  "price": 650,
+  "category": "Mountain",
+  "photo": "https://images.pexels.com/photos/8316299/pexels-photo-8316299.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+  "description": "Durable mountain bike with superior shock absorption.",
+  "quantity": 8,
+  "inStock": true,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2025-04-15T13:41:52.725Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b324c"
+  },
+  "name": "Aventon Aventure 2",
+  "brand": "Aventon",
+  "price": 1300,
+  "category": "Electric",
+  "photo": "https://images.pexels.com/photos/8811582/pexels-photo-8811582.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "description": "Electric bike with a sleek design for a smooth ride.",
+  "quantity": 17,
+  "inStock": true,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2025-04-15T13:41:55.371Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b324e"
+  },
+  "name": "Juiced Bikes HyperScrambler 2",
+  "brand": "Juiced Bikes",
+  "price": 1450,
+  "category": "Electric",
+  "photo": "https://images.pexels.com/photos/14474986/pexels-photo-14474986.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "description": "Stylish electric bike with excellent battery life.",
+  "quantity": 12,
+  "inStock": true,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2025-04-15T13:41:58.124Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b323e"
+  },
+  "name": "Specialized Rockhopper",
+  "brand": "Specialized",
+  "price": 600,
+  "category": "Mountain",
+  "photo": "https://images.pexels.com/photos/19996075/pexels-photo-19996075/free-photo-of-bike-in-a-forest.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+  "description": "Perfect for mountain trails and off-road experiences.",
+  "quantity": 8,
+  "inStock": true,
+  "isDeleted": true,
+  "updatedAt": {
+    "$date": "2025-04-16T18:25:59.239Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b3240"
+  },
+  "name": "Rad Power Bikes RadRover 6 Plus",
+  "brand": "Rad Power Bikes",
+  "price": 1200,
+  "category": "Electric",
+  "photo": "https://images.pexels.com/photos/12546700/pexels-photo-12546700.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "description": "Eco-friendly electric bike for city commutes.",
+  "quantity": 13,
+  "inStock": true,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2025-04-18T13:02:33.911Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b3243"
+  },
+  "name": "Juiced Bikes HyperScrambler 2",
+  "brand": "Juiced Bikes",
+  "price": 1450,
+  "category": "Electric",
+  "photo": "https://images.pexels.com/photos/14474986/pexels-photo-14474986.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "description": "Stylish electric bike with excellent battery life.",
+  "quantity": 12,
+  "inStock": true,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2025-04-15T13:42:00.821Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b3249"
+  },
+  "name": "Specialized Rockhopper",
+  "brand": "Specialized",
+  "price": 600,
+  "category": "Mountain",
+  "photo": "https://images.pexels.com/photos/19996075/pexels-photo-19996075/free-photo-of-bike-in-a-forest.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+  "description": "Perfect for mountain trails and off-road experiences.",
+  "quantity": 15,
+  "inStock": true,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2025-04-15T13:42:05.940Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b324b"
+  },
+  "name": "Rad Power Bikes RadRover 6 Plus",
+  "brand": "Rad Power Bikes",
+  "price": 1200,
+  "category": "Electric",
+  "photo": "https://images.pexels.com/photos/12546700/pexels-photo-12546700.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "description": "Eco-friendly electric bike for city commutes.",
+  "quantity": 20,
+  "inStock": true,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2025-04-15T13:42:09.112Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b3245"
+  },
+  "name": "Hero Lectro EHX20",
+  "brand": "Hero",
+  "price": 850,
+  "category": "Hybrid",
+  "photo": "https://images.pexels.com/photos/15208154/pexels-photo-15208154/free-photo-of-photo-of-a-blue-sports-bike.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "description": "Hero hybrid bike for daily commuters and adventurers.",
+  "quantity": 6,
+  "inStock": true,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2025-04-15T13:42:14.217Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b3247"
+  },
+  "name": "Trek FX 3 Disc",
+  "brand": "Trek",
+  "price": 950,
+  "category": "Hybrid",
+  "photo": "https://images.pexels.com/photos/1715189/pexels-photo-1715189.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "description": "Versatile hybrid bike for both urban and outdoor rides.",
+  "quantity": 7,
+  "inStock": true,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2025-04-15T13:59:22.647Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b324d"
+  },
+  "name": "Turboant X7 Pro",
+  "brand": "Turboant",
+  "price": 1400,
+  "category": "Electric",
+  "photo": "https://images.pexels.com/photos/14474990/pexels-photo-14474990.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "description": "High-performance electric bike for long-distance rides.",
+  "quantity": 10,
+  "inStock": true,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2025-04-15T13:59:26.032Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b323f"
+  },
+  "name": "Cannondale Trail 8",
+  "brand": "Cannondale",
+  "price": 650,
+  "category": "Mountain",
+  "photo": "https://images.pexels.com/photos/8316299/pexels-photo-8316299.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+  "description": "Durable mountain bike with superior shock absorption.",
+  "quantity": 7,
+  "inStock": true,
+  "isDeleted": true,
+  "updatedAt": {
+    "$date": "2025-04-16T18:26:09.267Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b3241"
+  },
+  "name": "Aventon Aventure 2",
+  "brand": "Aventon",
+  "price": 1300,
+  "category": "Electric",
+  "photo": "https://images.pexels.com/photos/8811582/pexels-photo-8811582.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "description": "Electric bike with a sleek design for a smooth ride.",
+  "quantity": 16,
+  "inStock": true,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2025-04-29T06:43:03.652Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b3242"
+  },
+  "name": "Turboant X7 Pro",
+  "brand": "Turboant",
+  "price": 1400,
+  "category": "Electric",
+  "photo": "https://images.pexels.com/photos/14474990/pexels-photo-14474990.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "description": "High-performance electric bike for long-distance rides.",
+  "quantity": 9,
+  "inStock": true,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2025-04-15T14:04:00.017Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7e51edede2b99dc7b3246"
+  },
+  "name": "Suzuki V-Strom 1050",
+  "brand": "Suzuki",
+  "price": 900,
+  "category": "Hybrid",
+  "photo": "https://images.pexels.com/photos/6924495/pexels-photo-6924495.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "description": "A reliable hybrid bike from Suzuki, designed for comfort.",
+  "quantity": 8,
+  "inStock": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "68005a5fd7bd0096e9a09c21"
+  },
+  "name": "R15 v4",
+  "brand": "Yamaha",
+  "price": 500,
+  "category": "Hybrid",
+  "description": "A minimalist urban mountain bike for adventure lovers.",
+  "quantity": 10,
+  "inStock": true,
+  "isDeleted": true,
+  "createdAt": {
+    "$date": "2025-04-17T01:33:19.622Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T01:41:00.722Z"
+  },
+  "__v": 0
+}]

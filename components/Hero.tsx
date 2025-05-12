@@ -38,7 +38,7 @@ export default function Hero() {
        {/* Buttons Section */}
        <section className="flex justify-start gap-6 mt-8 px-6 md:px-12">
         <Link href="/about" className="px-6 py-2 border-2 bg-transparent border-gray-800 text-white rounded-full hover:bg-gray-700 transition duration-300">
-          About Me
+          About
         </Link>
         <Link href="/projects" className="px-6 py-2 border-2 bg-transparent border-gray-800 text-white rounded-full hover:bg-gray-700 transition duration-300">
           Projects

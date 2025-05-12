@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation';
 import AnimatedWrapper from '@/components/AnimatedWrapper';
 import Image from 'next/image';
 import Link from 'next/link';
-import {  FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 import { notFound } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { FaArrowLeftLong } from 'react-icons/fa6';
@@ -21,7 +21,10 @@ type Project = {
   live?: string;
   frontend?: string;
   backend?: string;
+  challenges?: string[];
+  improvements?: string[];
 };
+
 
 // Fetch project details based on project ID
 async function getProjects(): Promise<Project[]> {
@@ -67,7 +70,7 @@ export default function ProjectDetails({ projectId }: { projectId: string }) {
   return (
     <AnimatedWrapper>
       <div className="relative px-6 py-10 w-full mx-auto flex flex-col gap-6">
-        <Link href="/projects" className="absolute top-4 left-4  text-white text-2xl hover:text-gray-400">
+        <Link href="/projects" className="absolute top-4 left-4 text-white text-2xl hover:text-gray-400">
           <FaArrowLeftLong />
         </Link>
         <Image
@@ -102,6 +105,28 @@ export default function ProjectDetails({ projectId }: { projectId: string }) {
             <ul className="list-disc list-inside mt-2 space-y-1 text-white">
               {project.features.map((feature, idx) => (
                 <li key={idx}>{feature}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {project.challenges && (
+          <div>
+            <h3 className="text-xl font-semibold">Challenges Faced:</h3>
+            <ul className="list-disc list-inside mt-2 space-y-1 text-white">
+              {project.challenges.map((challenge, idx) => (
+                <li key={idx}>{challenge}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {project.improvements && (
+          <div>
+            <h3 className="text-xl font-semibold">Future Improvement Plan:</h3>
+            <ul className="list-disc list-inside mt-2 space-y-1 text-white">
+              {project.improvements.map((improve, idx) => (
+                <li key={idx}>{improve}</li>
               ))}
             </ul>
           </div>
@@ -145,6 +170,7 @@ export default function ProjectDetails({ projectId }: { projectId: string }) {
           </div>
         )}
       </div>
+
     </AnimatedWrapper>
   );
 }
