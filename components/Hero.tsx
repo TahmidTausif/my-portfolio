@@ -23,7 +23,7 @@ export default function Hero() {
 
         {/* Right side: Profile Image */}
         <div className="flex-1 flex justify-center md:justify-end">
-          <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-8 border-white">
+          <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-lg hover:shadow-white/30 border-8 transition-all duration-300 border-white">
             <Image
               src="/images/my-photo-1.png"
               alt="Your Name"

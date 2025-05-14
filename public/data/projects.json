@@ -32,7 +32,7 @@
   {
     "id": "bike-shop",
     "title": "Bike Museum Website",
-    "description": "An e-commerce bike shop platform with filtering, product management, and secure checkout. Built using the MERN stack and integrated with SurjoPay.",
+    "description": "An e-commerce bike shop platform with filtering, product management, and secure checkout. Built using the MERN stack and integrated with Sslcommerz.",
     "image": "/images/mock_project_2.png",
     "tech": ["React", "Node.js", "MongoDB", "Express", "Redux Toolkit", "RTK Query", "Tailwind CSS", "JWT"],
     "live": "https://bike-museum-liart.vercel.app",
