@@ -1,7 +1,6 @@
 "use client";
 
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import { useEffect, useState } from "react";
 import { ClipLoader } from "react-spinners";
@@ -25,15 +24,11 @@ const MapComponent = ({ position }: MapComponentProps) => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate async data fetching
-    setTimeout(() => {
+    const timer = window.setTimeout(() => {
       setIsLoading(false);
-    }, 2000); // 2 seconds to simulate loading delay
-  }, []);
+    }, 2000);
 
-  // Handle hydration issue for SSR
-  useEffect(() => {
-    if (typeof window === "undefined") return;
+    return () => window.clearTimeout(timer);
   }, []);
 
   return (

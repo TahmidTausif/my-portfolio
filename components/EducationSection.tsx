@@ -27,27 +27,35 @@ const educationData = [
 export default function EducationSection() {
     return (
         <AnimatedWrapper>
-            <section className="text-gray-100 px-6 md:px-24 my-16 ">
-                <h2 className="text-4xl font-light mb-10 text-left">Education</h2>
+            <section className="px-6 md:px-24 my-16 text-gray-100">
+                <div className="mb-10 flex items-end justify-between gap-4 border-b border-gray-800 pb-5">
+                    <div>
+                        <p className="mb-2 text-sm uppercase tracking-[0.28em] text-gray-500">Academic Background</p>
+                        <h2 className="text-4xl font-light text-left">Education</h2>
+                    </div>
+                </div>
 
-                <div className="relative border-l-4 border-gray-700 pl-6 ml-4">
+                <div className="space-y-6">
                     {educationData.map((item, index) => (
-                        <div key={index} className="mb-12 relative">
-                            {/* Year marker */}
-                            <div className="absolute -left-10 top-0 bg-gray-700 text-white font-bold py-1 px-3 rounded shadow-md text-sm">
-                                {item.year}
+                        <div
+                            key={index}
+                            className="rounded-3xl border border-gray-800 bg-[#111] p-6 transition-all duration-300 hover:border-gray-700"
+                        >
+                            <div className="mb-5 flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
+                                <span className="w-fit rounded-full border border-gray-700 px-4 py-1 text-sm font-medium text-gray-300">
+                                    {item.year}
+                                </span>
                             </div>
 
-                            {/* Education Cards */}
-                            <div className="grid md:grid-cols-2 gap-6 mt-4">
+                            <div className="grid gap-5">
                                 {item.degrees.map((degree, i) => (
                                     <div
                                         key={i}
-                                        className="bg-[#111] p-6 rounded-xl shadow-md border border-gray-700 hover:border-gray-700 transition-all duration-300"
+                                        className="rounded-2xl border border-gray-800 bg-[#0d0d0d] p-5"
                                     >
-                                        <h3 className="text-xl mt-4 font-bold text-gray-500 mb-1">{degree.title}</h3>
-                                        <p className="text-gray-300 font-medium mb-2">{degree.institution}</p>
-                                        <p className="text-gray-400 text-sm">{degree.details}</p>
+                                        <h3 className="text-xl font-semibold text-gray-200">{degree.title}</h3>
+                                        <p className="mt-2 text-base text-gray-400">{degree.institution}</p>
+                                        <p className="mt-3 text-sm leading-7 text-gray-500">{degree.details}</p>
                                     </div>
                                 ))}
                             </div>

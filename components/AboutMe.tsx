@@ -8,26 +8,35 @@ import AnimatedWrapper from "./AnimatedWrapper";
 
 export default function AboutMe() {
     const [isModalOpen, setIsModalOpen] = useState(false);
+
     return (
         <AnimatedWrapper>
-            <section className=" items-center justify-items-center pt-20 px-6 md:px-24 mx-auto">
-                {/* About Me Section */}
-                <div className=" flex flex-col  gap-8   text-center mb-16">
-                    <h2 className="text-4xl font-light text-left  text-gray-100 mb-6 md:mb-0 ">About Me</h2>
-                    <div className="w-full ">
-                        <p className="text-lg text-left text-gray-300 mb-8">
-                        Hi, I&apos;m Tahmid! A passionate web developer with a strong focus on creating clean, responsive, and user-friendly interfaces. I specialize in building dynamic web applications using React, Next.js, and TypeScript.<br/> <br/> In addition to these frontend technologies, I am well-versed in the MERN stack (MongoDB, Express, React, Node.js) for full-stack development, enabling me to build end-to-end solutions from the database to the UI. I&apos;m constantly exploring new technologies and tools to stay at the forefront of development, and I&apos;m always excited about the opportunity to solve complex problems and bring ideas to life through code.
-                        </p>
+            <section className="px-6 pt-20 text-gray-100 md:px-24">
+                <div className="mb-10 flex items-end justify-between gap-4 border-b border-gray-800 pb-5">
+                    <div>
+                        <p className="mb-2 text-sm uppercase tracking-[0.28em] text-gray-500">Summary</p>
+                        <h2 className="text-left text-4xl font-light">About Me</h2>
+                    </div>
+                </div>
 
-                        {/* CV Preview and Download Button */}
-                        <div className="flex justify-center md:justify-start mb-8">
-                            <button
-                                onClick={() => setIsModalOpen(true)}
-                                className="bg-transparent border-2 border-gray-700 text-gray-400 py-3 px-8 rounded-full text-lg font-semibold hover:bg-gradient-to-l transform transition-all duration-300"
-                            >
-                                My Resume
-                            </button>
-                        </div>
+                <div className="mb-16">
+                    <p className="text-left text-lg leading-8 text-gray-300">
+                        Hi, I&apos;m Tahmid! A frontend developer focused on building clean, responsive, and user-friendly web applications with React, Next.js, TypeScript, and Tailwind CSS. I enjoy turning complex product requirements into intuitive interfaces that feel polished, fast, and reliable.
+                        <br />
+                        <br />
+                        Currently, I work as a Junior Frontend Developer at World Tech Soft, where I contribute to enterprise-scale products including a Hospital ERP and Resource Management System, and lead frontend development for an Inventory Management System. My work involves building reusable UI components, integrating large sets of REST API endpoints, improving UI and UX quality, and creating secure, scalable frontend architecture with tools like React Query, Zustand, JWT, and Backend-for-Frontend patterns.
+                        <br />
+                        <br />
+                        Alongside frontend development, I also have experience with the MERN stack, which helps me think across the full product flow from database and API design to the final user interface. I&apos;m always exploring better ways to write maintainable code, improve user experience, and build products that solve real-world problems.
+                    </p>
+
+                    <div className="mt-8 flex justify-start">
+                        <button
+                            onClick={() => setIsModalOpen(true)}
+                            className="rounded-full cursor-pointer border border-gray-700 px-6 py-3 text-sm font-medium text-gray-300 transition-all duration-300 hover:border-gray-600 hover:bg-[#151515] hover:text-gray-100"
+                        >
+                            My Resume
+                        </button>
                     </div>
                 </div>
 
@@ -37,7 +46,7 @@ export default function AboutMe() {
                             {/* Close Button */}
                             <button
                                 onClick={() => setIsModalOpen(false)}
-                                className="absolute top-4 right-4 text-gray-300 hover:text-white text-xl"
+                                className="absolute top-4 right-4 text-gray-300 hover:text-red-500 text-xl cursor-pointer hover:scale-105 transition-all duration-300"
                             >
                                 &times;
                             </button>
